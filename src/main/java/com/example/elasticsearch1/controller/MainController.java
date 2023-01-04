@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@RequestMapping("log")
+@RequestMapping("test")
 public class MainController {
 
-    @PostMapping("")
+    @GetMapping("getRequestIp")
     public ResponseEntity<?> request(){
         return ResponseEntity.ok("Hello this is log");
     }

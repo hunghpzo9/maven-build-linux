@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("test")
 public class MainController {
 
-    @GetMapping("getRequestIp")
+    @PostMapping("getRequestIp")
     public ResponseEntity<?> request(){
         return ResponseEntity.ok("Hello this is log");
     }

@@ -14,6 +14,6 @@ public class MainController {
 
     @PostMapping("getRequestIp")
     public ResponseEntity<?> request(){
-        return ResponseEntity.ok("Hello this is log");
+        return ResponseEntity.ok("Chào bé iu cánh cụt của anh. Anh iu em nhiều lắm <3");
     }
 }
